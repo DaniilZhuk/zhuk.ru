@@ -45,6 +45,18 @@ return [
             ],
         ],
         */
+        'db'     => [
+            'class' => 'yii\db\Connection', 
+            'dsn'      => 'pgsql:host=zhuk.ru;port=5433;dbname=zhuk_football',
+            'username' => 'postgres',
+            'password' => 'postgres',
+        //                'enableSchemaCache'   => true,
+        //                'schemaCacheDuration' => 3600,
+        //                'tablePrefix'         => '',
+        //                'charset'             => 'utf8mb4',
+        //                'enableQueryCache'    => true,
+        //                'queryCacheDuration'  => 600,
+        ],
     ],
     'params' => $params,
 ];

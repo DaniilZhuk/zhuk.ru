@@ -9,5 +9,11 @@ return [
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
+        'db'     => [
+            'class' => 'yii\db\Connection', 
+            'dsn'      => 'pgsql:host=zhuk.ru;port=5433;dbname=zhuk_football',
+            'username' => 'postgres',
+            'password' => 'postgres',
+        ],
     ],
 ];
